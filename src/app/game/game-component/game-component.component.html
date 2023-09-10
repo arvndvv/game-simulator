@@ -1,0 +1,4 @@
+<p>game-component works!</p>
+<p>Player: {{name}}</p>
+<game-input [value]="secret.value" [disabled]="secret.completed" />
+<button (click)="submit()" [disabled]="secret.completed">submit</button>
