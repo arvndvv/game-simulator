@@ -12,12 +12,12 @@ export class AppComponent implements OnInit {
     {
       id: 0,
       name: 'naruto',
-      secret: '123'
+      secret: '123456'
     },
     {
       id: 1,
       name: 'kakashi',
-      secret: '678'
+      secret: '678912'
     }
   ]
   secrets$ = new BehaviorSubject([{
